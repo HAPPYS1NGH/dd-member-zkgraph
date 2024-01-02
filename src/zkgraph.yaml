@@ -1,0 +1,24 @@
+specVersion: 0.0.2
+apiVersion: 0.0.2
+name: DDMember
+description: "This zkGraph returns the if the address has ever been a member of the Developer DAO. "
+repository: https://github.com/hyperoracle/zkgraph
+dataSources:
+  - kind: ethereum
+    network: mainnet
+    event:
+      - address: "0x25ed58c027921E14D86380eA2646E3a1B5C55A8b"
+        events:
+          - "Transfer(address,address,uint256)"
+      - address: "0xb24cd494faE4C180A89975F1328Eab2a7D5d8f11"
+        events:
+          - "Transfer(address,address,uint256)"
+mapping:
+  language: wasm/assemblyscript
+  file: ./mapping.ts
+  handler: handleBlocks
+
+dataDestinations:
+  - kind: ethereum
+    network: sepolia
+    address: "0x0000000000000000000000000000000000000001"
