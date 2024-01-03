@@ -1,14 +1,17 @@
-# Proof Of MemberShip of Developer DAO
+# Proof Of Membership of Developer DAO
 
 ## Working
 
-The zkGraph searches the events in the block for any Transfer Event for D4R NFT or CODE Token and therefore they can prove that they were member at this block and returns the address of the user.
+The zkGraph searches the events in the block for any Transfer Event for D4R NFT or CODE Token; therefore, they can prove that they were member at this block and return the user's address.
+It can mainly be used if the wallet is compromised and drained of all the funds, NFTs, and Tokens. The member can prove it as the address from which the tokens are transferred is in the state payload, not the recipient.
 
 ## Details
 
-Task Id - 6595a21681365a3b5540f8a3
-IPFS Hash - QmS3AVNMsjr2kmuV2WKpMvtmMWb2YvQgdWhCaANVVX1uR5
-Transaction Hash - 0x76a38c0a9e4cfd622d305b831315f25ba5592461abc6a01b62bfe4984f131f82
+**Task Id** - 6595a21681365a3b5540f8a3
+
+**IPFS Hash** - QmS3AVNMsjr2kmuV2WKpMvtmMWb2YvQgdWhCaANVVX1uR5
+
+**Transaction Hash** - 0x76a38c0a9e4cfd622d305b831315f25ba5592461abc6a01b62bfe4984f131f82
 
 ## Usage CLI
 
